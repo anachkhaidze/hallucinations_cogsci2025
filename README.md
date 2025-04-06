@@ -19,4 +19,4 @@ This repository contains all the data, code, and materials required to reproduce
 
 3. **Materials**
    - Lancaster Sensorimotor Norms [(Lynott et al., 2020)](https://link.springer.com/article/10.3758/s13428-019-01316-z): `norms/lancaster.csv`
-   - The Ganzflicker study from [(Königsmark et al., 2021)](https://www.sciencedirect.com/science/article/pii/S0010945221001957) can be found [here](https://forms.gle/tdKRKhva3uqC68tS9)
+   - The Ganzflicker experience [(Königsmark et al., 2021)](https://www.sciencedirect.com/science/article/pii/S0010945221001957) can be found [here](https://forms.gle/tdKRKhva3uqC68tS9). Happy Hallucinating!
