@@ -1,8 +1,6 @@
 # Visual Imagery Vividness Predicts the Complexity of Induced Hallucinations
 
-This repository contains all the data, code, and materials required to reproduce the analyses presented in the above article. The Ganzflicker study can be found [here](https://forms.gle/tdKRKhva3uqC68tS9).
-
-This repository is a Quarto project endowed with an `renv` R environment to ensure the stability of the packages used in the analysis and to guarantee the reproducibility of the results.
+This repository contains all the data, code, and materials required to reproduce the analyses presented in the above article. The Ganzflicker study from [(Königsmark et al., 2021)](https://www.sciencedirect.com/science/article/pii/S0010945221001957) can be found [here](https://forms.gle/tdKRKhva3uqC68tS9).
 
 ### Contents
 
