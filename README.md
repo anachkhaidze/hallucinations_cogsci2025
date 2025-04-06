@@ -14,4 +14,4 @@ This repository contains all the data, code, and materials required to reproduce
    - Datafile: `data/hallucinations_df_for_r.csv`
 
 3. **Code to recreate plots**
-   - Jupyter Notebook: `analysis/hallucination_plots.ipynb`
+   - `analysis/hallucination_plots.ipynb`
