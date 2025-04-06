@@ -1,1 +1,7 @@
 private_folder/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore R data and history files
+.RData
+.Rhistory
