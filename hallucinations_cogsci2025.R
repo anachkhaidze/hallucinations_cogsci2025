@@ -6,7 +6,7 @@ library(patchwork)
 library(mediation)
 
 
-df_responses <- read.csv("hallucinations_preprocessed_assigned_ls_norms.csv")
+df_responses <- read.csv("data/hallucinations_preprocessed_assigned_ls_norms.csv")
 
 df_responses <- df_responses %>%
   mutate(
@@ -178,8 +178,6 @@ adjusted_coeffs_motor <- data.frame(
                         mediation_motor_foot$z0)
 )
 
-
-
 ggplot(adjusted_coeffs_motor, aes(x = reorder(Predictor, Adjusted_Estimate), y = Adjusted_Estimate)) +
   geom_bar(stat = "identity", fill = "steelblue") +
   coord_flip() +
@@ -280,14 +278,10 @@ p <- ggplot(coef_df, aes(x = Estimate, y = reorder(Predictor, Estimate), color =
 
 # Apply wrapped y-axis labels
 p <- p + scale_y_discrete(labels = wrapped_labels)
-
-
 p
 
 # Save the plot
 ggsave("forest_plot_mediator_sensory.png", width = 4, height = 4, dpi = 300, units = "in", bg = "transparent")
-
-
 
 ###############
 
@@ -398,12 +392,8 @@ p
 # Save with correct dimensions
 ggsave("effect_size_plot.png", plot = p, width = 4.3, height = 4.3, dpi = 300, units = "in", bg = "transparent")
 
-
-
 # Print summary table
 print(mediation_results_sensory)
-
-
 
 ###################################### Overall Sensorimotor Model ######################
 
@@ -546,11 +536,6 @@ library(boot)
 cv_glm <- cv.glm(df_responses, model_simple, K = 10)
 cv_glm$delta
 
-
-library(sjPlot)
-library(ggplot2)
-library(patchwork)
-
 # Generate individual plots with specific customizations
 p1 <- plot_model(model_motor, type = "pred", terms = "head_strength") +
   geom_ribbon(aes(ymin = conf.low, ymax = conf.high), 
@@ -603,6 +588,6 @@ combined_plot <- p1 + p2 + p3 +
 # Print the combined plot
 print(combined_plot)
 
-# Save the combined plot with specific dimensions
-ggsave("head_hand_interoception_small.png", combined_plot, width = 9, height = 4.5)
+# # Save the combined plot with specific dimensions
+# ggsave("head_hand_interoception_small.png", combined_plot, width = 9, height = 4.5)
 
