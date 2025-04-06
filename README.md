@@ -7,7 +7,7 @@ This repository is a Quarto project endowed with a renv R environment to ensure 
 1) Hallucination descrtiptions preprocessing and NLP analysis
    - Analysis code: hallucination_preprocess_assign_ls_norms.ipynb
    - Datafile to use: hallucinations.csv
-   - Lancaster Sensorimotor Norms [(Lynott et al., 2020)] (https://link.springer.com/article/10.3758/s13428-019-01316-z): lancaster.csv
+   - Lancaster Sensorimotor Norms [(Lynott et al., 2020)](https://link.springer.com/article/10.3758/s13428-019-01316-z): lancaster.csv
  2) Regression models
    - Analysis code: hallucinations_cogsci2025.R
    - Datafile to use: hallucinations_df_for_r.csv
