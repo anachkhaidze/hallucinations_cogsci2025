@@ -5,13 +5,13 @@ This repository contains all the data, code, and materials required to reproduce
 ### Contents
 
 1. **Hallucination descriptions preprocessing and NLP analysis**
-   - Analysis code: `hallucination_preprocess_assign_ls_norms.ipynb`
-   - Datafile: `hallucinations.csv`
-   - Lancaster Sensorimotor Norms [(Lynott et al., 2020)](https://link.springer.com/article/10.3758/s13428-019-01316-z): `lancaster.csv`
+   - Analysis code: `analysis/hallucination_preprocess_assign_ls_norms.ipynb`
+   - Datafile: `data/hallucinations.csv`
+   - Lancaster Sensorimotor Norms [(Lynott et al., 2020)](https://link.springer.com/article/10.3758/s13428-019-01316-z): `norms/lancaster.csv`
 
 2. **Regression models**
-   - Analysis code: `hallucinations_cogsci2025.R`
-   - Datafile: `hallucinations_df_for_r.csv`
+   - Analysis code: `analysis/hallucinations_cogsci2025.R`
+   - Datafile: `data/hallucinations_df_for_r.csv`
 
 3. **Code to recreate plots**
-   - Jupyter Notebook: `hallucination_plots.ipynb`
+   - Jupyter Notebook: `analysis/hallucination_plots.ipynb`
