@@ -20,3 +20,7 @@ This repository contains all the data, code, and materials required to reproduce
 3. **Materials**
    - Lancaster Sensorimotor Norms [(Lynott et al., 2020)](https://link.springer.com/article/10.3758/s13428-019-01316-z): `norms/lancaster.csv`
    - The Ganzflicker experience [(Königsmark et al., 2021)](https://www.sciencedirect.com/science/article/pii/S0010945221001957) can be found [here](https://forms.gle/tdKRKhva3uqC68tS9). Happy Hallucinating!
+  
+### References
+   - Königsmark, V. T., Bergmann, J., & Reeder, R. R. (2021). The Ganzflicker experience: High probability of seeing vivid and complex pseudo-hallucinations with imagery but not aphantasia. Cortex, 141, 522–534. https://doi.org/10.1016/j.cortex.2021.05.007
+   - Lynott, D., Connell, L., Brysbaert, M., Brand, J., & Carney, J. (2020). The Lancaster Sensorimotor Norms: Multidimensional measures of perceptual and action strength for 40,000 English words. Behavior Research Methods, 52(3), 1271–1291. https://doi.org/10.3758/s13428-019-01316-z
