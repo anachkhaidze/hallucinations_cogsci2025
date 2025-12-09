@@ -1,6 +1,6 @@
 # Visual Imagery Vividness Predicts the Complexity of Induced Hallucinations
 
-This repository contains all the data, code, and materials required to reproduce the analyses presented in the above article accepted for this year's CogSci Proceedings. The preprint can is available [here](https://osf.io/preprints/psyarxiv/caext_v1).
+This repository contains all the data, code, and materials required to reproduce the analyses presented in the above article published in CogSci Proceedings (2025). The paper is available [here](https://escholarship.org/uc/item/1dx3n6gp).
 
 ### Contents
 
